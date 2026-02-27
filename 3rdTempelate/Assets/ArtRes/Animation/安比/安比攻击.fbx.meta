@@ -337,22 +337,43 @@ ModelImporter:
       curves: []
       events:
       - time: 0.17451054
-        functionName: ATK
+        functionName: Ex2_ATK
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.18869817
-        functionName: ATK
+        functionName: Ex2_ATK
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.2262268
-        functionName: ATK
+        functionName: Ex2_ATK
         data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.018036071
+        functionName: Ex2_ConsumeSP
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.38877758
+        functionName: Landing
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.15831663
+        functionName: PlayVFX
+        data: AnBi_Ex2
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
@@ -536,7 +557,35 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.018036071
+        functionName: Ex1_ConsumeSP
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.1397352
+        functionName: PlayVFX
+        data: AnBi_Ex1
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.15030059
+        functionName: Ex1_ATK
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5931864
+        functionName: PlayWeaponEndSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -565,7 +614,28 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.018036071
+        functionName: Ex2_ConsumeSP
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.2745491
+        functionName: Landing
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.036072142
+        functionName: PlayVFX
+        data: AnBi_Ex2Perfect
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -778,7 +848,8 @@ ModelImporter:
       - time: 0.081638426
         functionName: PlayVFX
         data: AnBi_01
-        objectReferenceParameter: {instanceID: 0}
+        objectReferenceParameter: {fileID: 1872147318604286, guid: 5bea49531fc500c408823a2e2863106f,
+          type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
@@ -831,7 +902,35 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.048460856
+        functionName: PlayVFX
+        data: AnBi_Ex1
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.056112226
+        functionName: Ex1Perfect_ATK
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4729459
+        functionName: PlayWeaponEndSound
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.018036071
+        functionName: Ex1_ConsumeSP
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

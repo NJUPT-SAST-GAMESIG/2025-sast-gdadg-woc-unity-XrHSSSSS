@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4561200866624874}
   - component: {fileID: 198421709541502938}
   - component: {fileID: 199087235995503314}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SwordSparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4920,7 +4920,7 @@ GameObject:
   - component: {fileID: 4002987338470736}
   - component: {fileID: 198255169002853248}
   - component: {fileID: 199270878549240578}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9820,7 +9820,7 @@ GameObject:
   - component: {fileID: 4939800614235324}
   - component: {fileID: 198226029551123048}
   - component: {fileID: 199875872723997294}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14720,7 +14720,7 @@ GameObject:
   - component: {fileID: 4724351676438382}
   - component: {fileID: 198532670508703930}
   - component: {fileID: 199609302769820132}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SmallStones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19629,7 +19629,7 @@ GameObject:
   - component: {fileID: 4642555969497348}
   - component: {fileID: 198120979181339040}
   - component: {fileID: 199532795583235218}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Distortion(Delete for Mobile)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24529,7 +24529,7 @@ GameObject:
   - component: {fileID: 4790428889057448}
   - component: {fileID: 198416943942729086}
   - component: {fileID: 199088463536911258}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCrack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29429,7 +29429,7 @@ GameObject:
   - component: {fileID: 4693983869266678}
   - component: {fileID: 198192976427800228}
   - component: {fileID: 199127745488761328}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SmokeTrails
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34329,7 +34329,7 @@ GameObject:
   - component: {fileID: 4483997885336106}
   - component: {fileID: 198001327168203614}
   - component: {fileID: 199060116029674862}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39229,7 +39229,7 @@ GameObject:
   - component: {fileID: 4614069927334456}
   - component: {fileID: 198636463753321026}
   - component: {fileID: 199814349464891954}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44129,7 +44129,7 @@ GameObject:
   - component: {fileID: 4346957559898880}
   - component: {fileID: 198616939144900182}
   - component: {fileID: 199701947980880348}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49047,7 +49047,7 @@ GameObject:
   - component: {fileID: 4003501900367752}
   - component: {fileID: 198274495757603134}
   - component: {fileID: 199017896374315618}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sword Slash 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53970,7 +53970,7 @@ GameObject:
   - component: {fileID: 4029546471271298}
   - component: {fileID: 198704762593896982}
   - component: {fileID: 199945841823395244}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58879,7 +58879,7 @@ GameObject:
   - component: {fileID: 4999134912497640}
   - component: {fileID: 198969644884396194}
   - component: {fileID: 199841933380046050}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63824,7 +63824,7 @@ GameObject:
   - component: {fileID: 4991473897964756}
   - component: {fileID: 198921903550412572}
   - component: {fileID: 199139478419705904}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SparksLong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68742,7 +68742,7 @@ GameObject:
   - component: {fileID: 4337900854515468}
   - component: {fileID: 198372111655562218}
   - component: {fileID: 199604727652425300}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,6 +1,6 @@
 using Character.Base;
 using Config;
-using Input;
+using GameInput;
 using Tools;
 using UnityEngine;
 using UnityEngine.Serialization;

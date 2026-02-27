@@ -2,7 +2,7 @@ using Tools;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Input
+namespace GameInput
 {
     public class GameInputManager : Singleton<GameInputManager>
     {
@@ -27,6 +27,10 @@ namespace Input
         public bool ExecuteParry => _gameInputAction.GameInput.Parry.triggered;
     
         public bool LockEnemy => _gameInputAction.GameInput.LockEnemy.triggered;
+
+        public bool Ex1 => Keyboard.current != null && Keyboard.current.digit1Key.wasPressedThisFrame;
+
+        public bool Ex2 => Keyboard.current != null && Keyboard.current.digit2Key.wasPressedThisFrame;
     
     
     

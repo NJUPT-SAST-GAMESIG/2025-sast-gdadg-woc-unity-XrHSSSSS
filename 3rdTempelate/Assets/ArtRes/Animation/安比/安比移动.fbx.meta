@@ -56,7 +56,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.32382002
+        functionName: RunStop
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -85,7 +92,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.513373
+        functionName: RFootRun
+        data: 
+        objectReferenceParameter: {fileID: 8300000, guid: 2e3cdcff2932f5845bbf2354c0b92df9,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.99196786
+        functionName: LFootRun
+        data: 
+        objectReferenceParameter: {fileID: 8300000, guid: 14ea1e45d5c4df6418452bab767a79d8,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -143,7 +166,28 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.24039517
+        functionName: RunStop
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5850714
+        functionName: RFootRun
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7409441
+        functionName: LFootRun
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -201,7 +245,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.029637774
+        functionName: RunStop
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -317,7 +368,21 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0
+        functionName: LFootWalk
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5389682
+        functionName: RFootWalk
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}

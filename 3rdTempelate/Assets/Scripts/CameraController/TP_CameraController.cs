@@ -1,4 +1,4 @@
-using Input;
+using GameInput;
 using Tools;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -18,9 +18,16 @@ namespace CameraController
 
         [FormerlySerializedAs("_lookTarget")] [SerializeField , Header("跟随目标")]
         public Transform lookTarget;
+        [SerializeField, Header("锁定参数")] private float lockYawSmoothTime = 0.08f;
         private Vector3 _smoothDampVelocity = Vector3.zero;
         private Vector2 _input;    //相机的输入 旋转角度
         private Vector3 _cameraRotation;   //当前摄像机的旋转角度
+        private Transform _lockTarget;
+        private float _lockYawVelocity;
+
+        public Transform CurrentLockTarget => _lockTarget;
+
+        public bool IsLockingTarget => _lockTarget != null;
 
         private void Update()
         {
@@ -39,11 +46,48 @@ namespace CameraController
 
         private void CameraInput()
         {
+            if (IsLockingTarget)
+            {
+                LockCameraYawToTarget();
+            }
+            else
+            {
+                _input.y += GameInputManager.MainInstance.CameraLook.x * controlSpeed;
+            }
 
-            _input.y += GameInputManager.MainInstance.CameraLook.x * controlSpeed;
             _input.x -= GameInputManager.MainInstance.CameraLook.y * controlSpeed;
 
             _input.x = Mathf.Clamp(_input.x, cameraVerticalMinAngle, cameraVerticalMaxAngle);
+        }
+
+        public void SetLockTarget(Transform target)
+        {
+            _lockTarget = target;
+        }
+
+        public void ClearLockTarget()
+        {
+            _lockTarget = null;
+            _lockYawVelocity = 0f;
+        }
+
+        //将相机的Yaw平滑地锁定到目标上
+        private void LockCameraYawToTarget()  
+        {
+            if (_lockTarget == null || lookTarget == null)
+            {
+                return;
+            }
+
+            Vector3 direction = _lockTarget.position - lookTarget.position;
+            direction.y = 0f;
+            if (direction.sqrMagnitude <= 0.0001f)
+            {
+                return;
+            }
+
+            float targetYaw = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
+            _input.y = Mathf.SmoothDampAngle(_input.y, targetYaw, ref _lockYawVelocity, lockYawSmoothTime);
         }
 
         //更新相机的旋转
